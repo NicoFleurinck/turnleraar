@@ -10,7 +10,7 @@ input.onButtonPressed(Button.A, function () {
 input.onGesture(Gesture.Shake, function () {
     tijd = randint(2, 8)
     oefeining = oefeningenlijst[randint(0, oefeningenlijst.length - 1)]
-    opdracht = "" + tijd + "s" + oefeining
+    opdracht = "" + tijd + "k" + oefeining
     basic.clearScreen()
     basic.showString(opdracht)
     basic.showNumber(tijd)
